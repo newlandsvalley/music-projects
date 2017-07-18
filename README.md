@@ -13,7 +13,7 @@ purescript
 
 These projects share various libraries.  The interdependencies are shown below:
 
-![dependencies](https://github.com/newlandsvalley/music-projects/ps-dependencies.jpg)
+![dependencies](https://github.com/newlandsvalley/music-projects/blob/master/ps-dependencies.jpg)
 
 elm
 ---
