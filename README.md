@@ -9,7 +9,7 @@ purescript
 | [purescript-abc-editor](https://github.com/newlandsvalley/purescript-abc-editor)   | edit, play and see scores of tunes in ABC notation    |
 | [purescript-abc-tutorial](https://github.com/newlandsvalley/purescript-abc-tutorial)    | interactive ABC tutorial                           |
 | [purescript-school-of-music](https://github.com/newlandsvalley/purescript-school-of-music) | port of the Haskell Scool of Music |
-| [keyboard player](https://github.com/newlandsvalley/purescript-midi/tree/master/examples/keyboard)            | play a MIDI keyboard in through browser  |
+| [keyboard player](https://github.com/newlandsvalley/purescript-midi/tree/master/examples/keyboard)            | play a MIDI keyboard through the browser  |
 
 These projects share various libraries.  The interdependencies are shown below:
 
