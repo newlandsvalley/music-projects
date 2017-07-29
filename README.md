@@ -4,6 +4,8 @@ Summary of Music Projects
 purescript
 ----------
 
+Projects:
+
 | Name                       | Description                                        |
 | -----------------------    | -------------------------------------------------- |
 | [purescript-abc-editor](https://github.com/newlandsvalley/purescript-abc-editor)   | edit, play and see scores of tunes in ABC notation    |
@@ -14,6 +16,17 @@ purescript
 All these projects run in the browser and use Pux/smolder to generate the HTML. The projects share various libraries whose interdependencies are shown below. These include various players which are implemented as autonomous Pux modules. 
 
 ![dependencies](https://github.com/newlandsvalley/music-projects/blob/master/ps-dependencies.jpg)
+
+These libraries include:
+
+| Name                             | Description                                        |
+| -------------------------------- | -------------------------------------------------- |
+| [purescript-polyphonic_soundfonts](https://github.com/newlandsvalley/purescript-polyphonic-soundfonts) | play notes using web-audio soundfonts              |
+| [purescript-midi](https://github.com/newlandsvalley/purescript-midi)                  | parser for general MIDI                            |
+| [purescript-abc-parser](https://github.com/newlandsvalley/purescript-abc-parser)            | parser for the ABC notation                        |
+| [purescript-scores](https://github.com/newlandsvalley/purescript-scores)                | generate music scores using VexTab                 |
+| various players                  | play a variety of music using a common interface   |
+
 
 elm
 ---
