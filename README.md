@@ -11,7 +11,7 @@ purescript
 | [purescript-school-of-music](https://github.com/newlandsvalley/purescript-school-of-music) | port of the Haskell Scool of Music |
 | [keyboard player](https://github.com/newlandsvalley/purescript-midi/tree/master/examples/keyboard)            | play a MIDI keyboard through the browser  |
 
-These projects share various libraries.  The interdependencies are shown below:
+All these projects run in the browser and use Pux/smolder to generate the HTML. The various players are implemented as autonomous Pux modules. The projects share various libraries whose interdependencies are shown below:
 
 ![dependencies](https://github.com/newlandsvalley/music-projects/blob/master/ps-dependencies.jpg)
 
