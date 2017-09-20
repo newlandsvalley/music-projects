@@ -10,7 +10,7 @@ Projects:
 | -----------------------    | -------------------------------------------------- |
 | [purescript-abc-editor](https://github.com/newlandsvalley/purescript-abc-editor)   | edit, play and see scores of tunes in ABC notation    |
 | [purescript-abc-tutorial](https://github.com/newlandsvalley/purescript-abc-tutorial)    | interactive ABC tutorial                           |
-| [purescript-school-of-music](https://github.com/newlandsvalley/purescript-school-of-music) | port of the Haskell Scool of Music |
+| [purescript-school-of-music](https://github.com/newlandsvalley/purescript-school-of-music) | port of the Haskell School of Music |
 | [keyboard player](https://github.com/newlandsvalley/purescript-midi/tree/master/examples/keyboard)            | play a MIDI keyboard through the browser  |
 
 All these projects run in the browser and use Pux/smolder to generate the HTML. The projects share various libraries whose interdependencies are shown below. These include various players which are implemented as autonomous Pux modules. 
