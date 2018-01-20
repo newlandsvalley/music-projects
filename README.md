@@ -22,7 +22,7 @@ The audio libraries include:
 | Name                             | Description                                        |
 | -------------------------------- | -------------------------------------------------- |
 | [purescript-soundfonts](https://github.com/newlandsvalley/purescript-soundfonts) | play notes using web-audio soundfonts              |
-| [purescript-midi](https://github.com/newlandsvalley/purescript-midi)                  | parser for general MIDI / Web-MIDI support                            |
+| [purescript-midi](https://github.com/newlandsvalley/purescript-midi)                  | General MIDI, Web-MIDI and MIDI instruments                  |
 | [purescript-abc-parser](https://github.com/newlandsvalley/purescript-abc-parser)            | parser for the ABC notation                        |
 | [purescript-scores](https://github.com/newlandsvalley/purescript-scores)                | generate music scores using VexTab                 |
 | various players                  | play a variety of music using a common interface   |
