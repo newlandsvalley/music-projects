@@ -11,8 +11,10 @@ PureScript
 | [purescript-abc-tutorial](https://github.com/newlandsvalley/purescript-abc-tutorial)    | interactive ABC tutorial                           |
 | [purescript-school-of-music](https://github.com/newlandsvalley/purescript-school-of-music) | port of the Haskell School of Music |
 | [MIDI keyboard player](https://github.com/newlandsvalley/purescript-midi-keyboard)            | play a MIDI keyboard through the browser  |
+| [purescript-audiograph](https://github.com/newlandsvalley/purescript-audiograph)            | declarative interface into web-audio  |
 
-All these projects run in the browser and use Pux/smolder to generate the HTML. The projects share various libraries whose interdependencies are shown below. These include various players which are implemented as autonomous Pux modules. 
+
+All these projects run in the browser, use Pux/smolder or Halogen to generate the HTML and web-audio to generate sound. The last project is an experiment built solely around purescript-webaudio. The first four projects share various libraries whose interdependencies are shown below. These include various players which are implemented as autonomous Pux modules. 
 
 ![dependencies](https://github.com/newlandsvalley/music-projects/blob/master/ps-dependencies.jpg)
 
