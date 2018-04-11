@@ -35,7 +35,7 @@ Note that these libraries are for use in the browser and are not available for N
 Elm
 ---
 
-Much of the same ground is covered in the elm projects.  However, these are no longer being actively maintained - in favour of the purescript implementations.
+Much of the same ground is covered in the Elm projects.  However, these are no longer being actively maintained - in favour of the purescript implementations. It is unlikely that I will continue to maintain them beyond Elm 0.18 although I may accept PRs.
 
 Scala
 -----
