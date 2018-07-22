@@ -14,7 +14,7 @@ PureScript
 | [purescript-audiograph](https://github.com/newlandsvalley/purescript-audiograph)            | declarative interface into web-audio  |
 
 
-All these projects run in the browser, use Pux/smolder or Halogen to generate the HTML and web-audio to generate sound. The last project is an experiment built solely around purescript-webaudio. The first four projects share various libraries whose interdependencies are shown below. These include various players which are implemented as autonomous Pux modules. 
+All these projects run in the browser, and use web-audio to generate sound. The MIDI Keyboard player uses Pux as the UI component, whilst all the others use Halogen. The last project is an experiment built solely around purescript-webaudio. The first four projects share various libraries whose interdependencies are shown below. 
 
 ![dependencies](https://github.com/newlandsvalley/music-projects/blob/master/ps-dependencies.jpg)
 
@@ -27,9 +27,11 @@ The audio libraries include:
 | [purescript-midi](https://github.com/newlandsvalley/purescript-midi)                  | General MIDI, Web-MIDI and MIDI instruments                  |
 | [purescript-abc-parser](https://github.com/newlandsvalley/purescript-abc-parser)            | parser for the ABC notation                        |
 | [purescript-scores](https://github.com/newlandsvalley/purescript-scores)                | generate music scores using VexTab                 |
-| various players                  | play a variety of music using a common interface   |
+| [purescript-halogen-components](https://github.com/newlandsvalley/purescript-halogen-components)               | various components including a generic player  |
 
 Note that these libraries are for use in the browser and are not available for Node.
+
+Earlier versions of the projects used Pux exclusively under PureScript 0.11. These used a base [purescript-soundfont-player](https://github.com/newlandsvalley/purescript-soundfont-player) with two specialised players - [purescript-midi-player](https://github.com/newlandsvalley/purescript-midi-player) and [purescript-psom-player](https://github.com/newlandsvalley/purescript-psom-player) built by wrapping the base soundfont player.
 
 
 Elm
