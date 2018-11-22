@@ -26,7 +26,7 @@ The audio libraries include:
 | [purescript-soundfonts](https://github.com/newlandsvalley/purescript-soundfonts) | play notes using web-audio soundfonts              |
 | [purescript-midi](https://github.com/newlandsvalley/purescript-midi)                  | General MIDI, Web-MIDI and MIDI instruments                  |
 | [purescript-abc-parser](https://github.com/newlandsvalley/purescript-abc-parser)            | parser for the ABC notation                        |
-| [purescript-vexflow](https://github.com/newlandsvalley/purescript-vexflow)                | generate music scores using VexFlow                 |
+| [purescript-abc-scores](https://github.com/newlandsvalley/purescript-abc-scores)                | generate music scores using VexFlow                 |
 | [purescript-halogen-components](https://github.com/newlandsvalley/purescript-halogen-components)               | various components including a generic player  |
 
 Note that these libraries are for use in the browser and are not available for Node.
