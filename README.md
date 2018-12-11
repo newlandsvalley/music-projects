@@ -11,8 +11,8 @@ PureScript
 | [purescript-abc-tutorial](https://github.com/newlandsvalley/purescript-abc-tutorial)    | interactive ABC tutorial                           |
 | [purescript-school-of-music](https://github.com/newlandsvalley/purescript-school-of-music) | port of the Haskell School of Music |
 | [MIDI keyboard player](https://github.com/newlandsvalley/purescript-midi-keyboard)            | play a MIDI keyboard through the browser  |
+| [polska-metronome](https://github.com/newlandsvalley/polska-metronome)            | 3/4 metronome with irregular beats |
 | [purescript-audiograph](https://github.com/newlandsvalley/purescript-audiograph)            | declarative interface into web-audio  |
-| [polska-metronome](https://github.com/newlandsvalley/polska-metronome)            | metronome with adjustable 2nd beat |
 
 
 All these projects run in the browser, and use web-audio to generate sound. The MIDI Keyboard player uses Pux as the UI component, whilst all the others use Halogen. The last project is an experiment built solely around purescript-webaudio. The first four projects share various libraries whose interdependencies are shown below. 
