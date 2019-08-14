@@ -14,6 +14,7 @@ PureScript
 | [polska-metronome](https://github.com/newlandsvalley/polska-metronome)            | 3/4 metronome with irregular beats |
 | [chord-editor](https://github.com/newlandsvalley/chord-editor)            | edit guitar chord diagrams |
 | [purescript-audiograph](https://github.com/newlandsvalley/purescript-audiograph)            | declarative interface into web-audio  |
+| [tunebank-frontend](https://github.com/newlandsvalley/tunebank-frontend)            | UI to musicrest |
 
 
 All these projects run in the browser, and use web-audio to generate sound. The MIDI Keyboard player uses Pux as the UI component, whilst all the others use Halogen. The last project is an experiment built solely around purescript-webaudio. The first four projects share various libraries whose interdependencies are shown below. 
