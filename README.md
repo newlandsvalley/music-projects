@@ -50,4 +50,7 @@ Scala
 Haskell
 -------
 
-[MidiToAbc](https://github.com/newlandsvalley/MidiToAbc) attempts to convert a monophonic MIDI melody into the ABC notation.
+| Name                             | Description                                        |
+| -------------------------------- | -------------------------------------------------- |
+| [MidiToAbc](https://github.com/newlandsvalley/MidiToAbc) | An attempt to convert a monophonic MIDI melody into the ABC notation. |
+| [Tunebank](https://github.com/newlandsvalley/tunebank) | An experimental rewrite of musicrest using [Servant](https://www.servant.dev/) and Postgresql. |
