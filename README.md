@@ -13,11 +13,11 @@ PureScript
 | [MIDI keyboard player](https://github.com/newlandsvalley/purescript-midi-keyboard)            | play a MIDI keyboard through the browser  |
 | [polska-metronome](https://github.com/newlandsvalley/polska-metronome)            | 3/4 metronome with irregular beats |
 | [chord-editor](https://github.com/newlandsvalley/chord-editor)            | edit guitar chord diagrams |
-| [purescript-audiograph](https://github.com/newlandsvalley/purescript-audiograph)            | declarative interface into web-audio  |
 | [tunebank-frontend](https://github.com/newlandsvalley/tunebank-frontend)            | UI to musicrest |
+| [purescript-audiograph](https://github.com/newlandsvalley/purescript-audiograph)            | declarative interface into web-audio  |
 
 
-All these projects run in the browser, and use web-audio to generate sound. The MIDI Keyboard player uses Pux as the UI component, whilst all the others use Halogen. The last project is an experiment built solely around purescript-webaudio. The first four projects share various libraries whose interdependencies are shown below. 
+All these projects run in the browser, and use web-audio to generate sound. All the projects use Halogen as the UI framework although legacy Pux versions exist for some of them. __tunebank-frontend__ incorporates all the ABC utilities. The last project is an experiment built solely around purescript-webaudio. The first four projects share various libraries whose interdependencies are shown below. 
 
 ![dependencies](https://github.com/newlandsvalley/music-projects/blob/master/ps-dependencies.jpg)
 
@@ -30,6 +30,7 @@ The audio libraries include:
 | [purescript-midi](https://github.com/newlandsvalley/purescript-midi)                  | General MIDI, Web-MIDI and MIDI instruments                  |
 | [purescript-abc-parser](https://github.com/newlandsvalley/purescript-abc-parser)            | parser for the ABC notation                        |
 | [purescript-abc-scores](https://github.com/newlandsvalley/purescript-abc-scores)                | generate music scores using VexFlow                 |
+| [purescript-abc-melody](https://github.com/newlandsvalley/purescript-abc-melody) | convert ABC directly to a soundfont melody |
 | [purescript-halogen-components](https://github.com/newlandsvalley/purescript-halogen-components)               | various components including a generic player  |
 
 Note that these libraries are for use in the browser and are not available for Node.
