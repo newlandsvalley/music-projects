@@ -9,7 +9,7 @@ PureScript
 | -----------------------    | -------------------------------------------------- |
 | [purescript-abc-editor](https://github.com/newlandsvalley/purescript-abc-editor)   | edit, play and see scores of tunes in ABC notation    |
 | [purescript-abc-tutorial](https://github.com/newlandsvalley/purescript-abc-tutorial)    | learn ABC by means of an interactive tutorial                           |
-| [purescript-school-of-music](https://github.com/newlandsvalley/purescript-school-of-music) | port of the Haskell School of Music |
+| [purescript-school-of-music](https://github.com/newlandsvalley/purescript-school-of-music) | (PSoM) port of the Haskell School of Music |
 | [MIDI keyboard player](https://github.com/newlandsvalley/purescript-midi-keyboard)            | play a MIDI keyboard through the browser  |
 | [polska-metronome](https://github.com/newlandsvalley/polska-metronome)            | 3/4 metronome with irregular beats |
 | [chord-editor](https://github.com/newlandsvalley/chord-editor)            | edit guitar chord diagrams |
@@ -30,7 +30,8 @@ The audio libraries include:
 | [purescript-midi](https://github.com/newlandsvalley/purescript-midi)                  | General MIDI, Web-MIDI and MIDI instruments                  |
 | [purescript-abc-parser](https://github.com/newlandsvalley/purescript-abc-parser)            | parser for the ABC notation                        |
 | [purescript-abc-scores](https://github.com/newlandsvalley/purescript-abc-scores)                | generate music scores using VexFlow                 |
-| [purescript-abc-melody](https://github.com/newlandsvalley/purescript-abc-melody) | convert ABC directly to a soundfont melody |
+| [purescript-abc-melody](https://github.com/newlandsvalley/purescript-abc-melody) | convert ABC directly to a monophonic soundfont melody |
+| [purescript-abc2psom](https://github.com/newlandsvalley/purescript-abc2psom) | convert ABC to a polyphonic PSoM melody |
 | [purescript-halogen-components](https://github.com/newlandsvalley/purescript-halogen-components)               | various components including a generic player  |
 
 Note that these libraries are for use in the browser and are not available for Node.
