@@ -43,7 +43,7 @@ Earlier versions of the projects used Pux exclusively under PureScript 0.11. The
 Elm
 ---
 
-Much of the same ground is covered in the Elm projects.  However, these are no longer being actively maintained - in favour of the purescript implementations. It is unlikely that I will continue to maintain them beyond Elm 0.18 although I may accept PRs.
+Much of the same ground is covered in the Elm projects.  However, these are now long in the tooth, having been written for Elm 0.18. They are no longer being actively maintained (in favour of the purescript implementations) and most have been archived.
 
 Scala
 -----
