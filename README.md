@@ -21,7 +21,7 @@ PureScript
 
 All these projects run in the browser, and use web-audio to generate sound. All the projects use Halogen as the UI framework although legacy Pux versions exist for some of them. __tunebank-frontend__ incorporates all the ABC utilities. The last project is an experiment built solely around purescript-webaudio. Most of the projects share various libraries whose interdependencies are quite complex and are shown below. Libraries at the end of the dependency chain such as the ABC editor, tutorial, PSOM editor and polyphonic player also exist as independent projects for the browser.
 
-![dependencies](https://github.com/newlandsvalley/music-projects/blob/master/library-dependencies.jpg)
+![dependencies](https://github.com/newlandsvalley/music-projects/blob/ps014/library-dependencies.jpg)
 
 The audio libraries include:
 
