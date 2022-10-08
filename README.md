@@ -13,7 +13,7 @@ PureScript
 | [purescript-school-of-music](https://github.com/newlandsvalley/purescript-school-of-music) | (PSoM) port of the Haskell School of Music |
 | [MIDI keyboard player](https://github.com/newlandsvalley/purescript-midi-keyboard)            | play a MIDI keyboard through the browser  |
 | [polska-metronome](https://github.com/newlandsvalley/polska-metronome)            | 3/4 metronome with irregular beats |
-| [chord-editor](https://github.com/newlandsvalley/chord-editor)            | edit guitar chord diagrams |
+| [chord-editor](https://github.com/newlandsvalley/chord-editor)            | edit chord diagrams |
 | [tunebook](https://github.com/newlandsvalley/tunebook)  | quick and dirty generation of a booklet of scores |
 | [tunebank-frontend](https://github.com/newlandsvalley/tunebank-frontend)            | UI to musicrest |
 | [purescript-audiograph](https://github.com/newlandsvalley/purescript-audiograph)            | declarative interface into web-audio  |
