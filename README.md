@@ -15,11 +15,12 @@ PureScript
 | [polska-metronome](https://github.com/newlandsvalley/polska-metronome)            | 3/4 metronome with irregular beats |
 | [chord-editor](https://github.com/newlandsvalley/chord-editor)            | edit chord diagrams |
 | [tunebook](https://github.com/newlandsvalley/tunebook)  | quick and dirty generation of a booklet of scores |
-| [tunebank-frontend](https://github.com/newlandsvalley/tunebank-frontend)            | UI to musicrest |
+| [tunebank-node](https://github.com/newlandsvalley/tunebank-node)            | A tune store for ABC |
+| [tunebank-frontend-for-node](https://github.com/newlandsvalley/tunebank-frontend-for-node)            | UI to tunebank-node |
 | [purescript-audiograph](https://github.com/newlandsvalley/purescript-audiograph)            | declarative interface into web-audio  |
 
 
-All these projects run in the browser, and use web-audio to generate sound. All the projects use Halogen as the UI framework although legacy Pux versions exist for some of them. __tunebank-frontend__ incorporates all the ABC utilities. The last project is an experiment built solely around purescript-webaudio. The first four projects share various libraries whose interdependencies are shown below. 
+All these projects run in the browser, and use web-audio to generate sound. All the projects use Halogen as the UI framework although legacy Pux versions exist for some of them. __tunebank-frontend-for-node__ incorporates all the ABC utilities. The last project is an experiment built solely around purescript-webaudio. The first four projects share various libraries whose interdependencies are shown below. 
 
 ![dependencies](https://github.com/newlandsvalley/music-projects/blob/master/ps-dependencies.jpg)
 
@@ -49,7 +50,7 @@ Much of the same ground is covered in the Elm projects.  However, these are now 
 Scala
 -----
 
-[musicrest](https://github.com/newlandsvalley/musicrest) is the backend for [tradtunedb](http://www.tradtunedb.org.uk/).
+[musicrest](https://github.com/newlandsvalley/musicrest) is the backend for [tradtunedb](http://www.tradtunedb.org.uk/). This is now deprecated in favour of tunebank-node.
 
 Haskell
 -------
